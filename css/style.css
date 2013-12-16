@@ -1,0 +1,53 @@
+@font-face {
+    font-family: 'font_name';
+    src: url('../font/font-name.eot');
+    src: url('../font/font-name.eot?#iefix') format('embedded-opentype'),
+         url('../font/font-name.woff') format('woff'),
+         url('../font/font-name.ttf') format('truetype'),
+         url('../font/font-name.svg#open_sansregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: 'font_name';
+	font-size:16px !important;
+}
+/* http://pxtoem.com/ */
+
+/* Large desktop */
+@media only screen and (min-width :75.000em) {
+    .test {
+        display: none;
+    }
+}
+
+/* Portrait tablet to landscape and desktop */
+@media only screen and (min-width :61.250em) and (max-width:74.938em) {
+    .test {
+        display: block;
+        color: #FF0;
+    }
+}
+
+/* Portrait tablet to landscape and desktop */
+@media only screen and (min-width :48.000em) and (max-width:61.188em) {
+    .test {
+        display: none;
+    }
+}
+
+/* Landscape phone to portrait tablet */
+@media only screen and (min-width :30.063em) and ( max-width :47.938em) {
+    .test {
+        display: none;
+    }
+}
+
+/* portrait phones and down */
+@media only screen and (max-width :30.000em) {
+    .test {
+        display: block;
+        color: #FF0;
+    }
+}

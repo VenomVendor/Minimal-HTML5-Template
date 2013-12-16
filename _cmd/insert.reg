@@ -1,0 +1,19 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\.html\ShellNew]
+@="FirefoxHTML"
+"FileName"="html.html"
+[HKEY_CLASSES_ROOT\FirefoxHTML]
+"FriendlyTypeName"="HTML5 Doc"
+
+[HKEY_CLASSES_ROOT\.css\ShellNew]
+@="CSSFile"
+"FileName"="css.css"
+[HKEY_CLASSES_ROOT\CSSFile]
+"FriendlyTypeName"="CSS"
+
+[HKEY_CLASSES_ROOT\.js\ShellNew]
+@="JSFile"
+"FileName"="js.js"
+[HKEY_CLASSES_ROOT\JSFile]
+"FriendlyTypeName"="JS File"
