@@ -1,12 +1,14 @@
-
 ## Minimal-HTML5-Template
 
 ### About
- - Minimal files to start HTML5 responsive site, including batch file to create context menu with custom template for ***.html, *.css, *. js** files
+ - Minimal files to start HTML5 responsive site, including batch file to create context menu with custom template for * .html, *.css, *. js * files.
+ - 
+![alt custom context menu](https://raw.github.com/VenomVendor/Minimal-HTML5-Template/master/img/context.jpg)
 
 ### Usage
  - To create context menu in windows, run **Runasadministrator.cmd** as administrator (Right Click >> Run as administrator). Follow the instructions.
  -  use **ShellNewHandler.exe** to add or remove context menu.
+
 
 ### Files Included
  - _cmd
